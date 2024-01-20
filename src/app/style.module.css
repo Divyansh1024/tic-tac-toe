@@ -1,0 +1,50 @@
+.sectionStyle {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    margin-inline: 1.66%;
+    background-color: rgb(63, 148, 187);
+    box-sizing: border-box;
+}
+
+.sectionStyle:hover {
+    transform: scale(1.01);
+    transition: ease 0.1s;
+    background-color: rgb(46, 132, 172);
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.inputSection{
+    width: 60px;
+    background-color: rgb(168, 209, 228);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.labelStyle{
+    margin-left: 30%;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(215, 247, 255);
+    color: rgb(197, 0, 0);
+    font-weight: 900;
+    margin-inline: 60px;
+}
+
+.button:hover{
+    background-color: rgb(176, 239, 255);
+    transform: scale(1.1);
+    transition: ease 0.1s;
+}
